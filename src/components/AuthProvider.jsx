@@ -25,6 +25,7 @@ const AuthProvider = ({children}) => {
         return signInWithPopup(auth, githubProvider)
     }
     const logOut = () =>{
+        setUser(null)
         return signOut(auth)
     }
 

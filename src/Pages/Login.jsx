@@ -56,9 +56,9 @@ const Login = () => {
                 <p>Do not have an account? <Link className="text-bold text-green-400" to='/register'>Register</Link></p>
               </div>
             </form>
-            <div>
-              <button onClick={handleGoogleLogin} className='btn btn-secondary'>Google login</button>
-              <button onClick={handleGithubLogin} className='btn btn-secondary'>Github login</button>
+            <div className="flex justify-between px-6">
+              <button onClick={handleGoogleLogin} className='btn btn-outline btn-primary'>Google login</button>
+              <button onClick={handleGithubLogin} className='btn btn-outline btn-primary'>Github login</button>
             </div>
           </div>
         </div>

@@ -12,7 +12,7 @@ const Navbar = () => {
 
     </>
 
-    const { user,logOut } = useContext(AuthContext)
+    const { user, logOut } = useContext(AuthContext)
 
     return (
         <div className="navbar bg-base-100">
@@ -35,7 +35,7 @@ const Navbar = () => {
 
             <div className="navbar-end">
                 {user ? <div>
-                    {user.email}
+                    {user.displayName}
                     <button className="btn btn-ghost" onClick={() => logOut()}>Logout</button>
                 </div> : ""}
             </div>
