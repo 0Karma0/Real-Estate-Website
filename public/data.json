@@ -1,5 +1,4 @@
-{
-    "estates": [
+ [
       {
         "id": 1,
         "estate_title": "Luxury Villa with Ocean View",
@@ -9,9 +8,8 @@
         "status": "sale",
         "area": "5000 sq ft",
         "location": "Coastal Heights",
-        "facilities": ["Infinity Pool", "Home Theater", "Gourmet Kitchen", "Gym"],
-        "image": "https://example.com/luxury_villa.jpg",
-        "button": "View Property"
+        "facilities": ["Infinity Pool,", "Home Theater,", "Gourmet Kitchen,", "Gym"],
+        "image": "https://i.ibb.co/hZNzXGk/luxury-pool-villa-spectacular-contemporary-design-digital-art-real-estate-home-house-property-ge.jpg"
       },
       {
         "id": 2,
@@ -22,9 +20,8 @@
         "status": "rent",
         "area": "2000 sq ft",
         "location": "City Center",
-        "facilities": ["Spa", "Roof Terrace", "Concierge Service", "Fitness Center"],
-        "image": "https://example.com/downtown_penthouse.jpg",
-        "button": "View Property"
+        "facilities": ["Spa,", "Roof Terrace,", "Concierge Service,", "Fitness Center"],
+        "image": "https://i.ibb.co/GcTWCj7/modern-residential-district-with-green-roof-balcony-generated-by-ai.jpg"
       },
       {
         "id": 3,
@@ -35,9 +32,8 @@
         "status": "sale",
         "area": "10 acres",
         "location": "Rural Countryside",
-        "facilities": ["Guest Cottage", "Private Pond", "Tennis Court", "Orchard"],
-        "image": "https://example.com/country_estate.jpg",
-        "button": "View Property"
+        "facilities": ["Guest Cottage,", "Private Pond,", "Tennis Court,", "Orchard"],
+        "image": "https://i.ibb.co/k2GrSR6/night-architecture-outdoors-dusk-building-exterior-tree-grass-illuminated-generative-ai.jpg"
       },
       {
         "id": 4,
@@ -48,10 +44,8 @@
         "status": "sale",
         "area": "1500 sq ft",
         "location": "Downtown District",
-        "facilities": ["Exposed Brick Walls", "Open Concept Living", "Private Balcony", "Fitness Center Access"],
-        "image": "https://example.com/urban_loft.jpg",
-        "button": "View Property"
+        "facilities": ["Exposed Brick Walls,", "Open Concept Living,", "Private Balcony,", "Fitness Center Access"],
+        "image": "https://i.ibb.co/ZHwT0B0/luxury-pool-villa-spectacular-contemporary-design-digital-art-real-estate-home-house-property-ge-1.jpg"
       }
     ]
-  }
   
