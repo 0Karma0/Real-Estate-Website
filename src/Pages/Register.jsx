@@ -1,23 +1,8 @@
-import { useContext, useEffect, useState } from 'react';
+import { useContext, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../components/AuthProvider';
 
 const Register = () => {
-
-
-  useEffect(() => {
-    const clear = setInterval(() => {
-
-    }, 1000)
-
-
-    return () => {
-      clearInterval(clear)
-    }
-  }, [])
-
-
-
 
   const { registerUser, setUser } = useContext(AuthContext)
   const [error, setError] = useState("")

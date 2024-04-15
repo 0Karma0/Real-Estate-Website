@@ -1,0 +1,57 @@
+{
+    "estates": [
+      {
+        "id": 1,
+        "estate_title": "Luxury Villa with Ocean View",
+        "segment_name": "Residential",
+        "description": "Experience luxury living in this stunning villa overlooking the ocean. The property features spacious rooms, modern amenities, and breathtaking views.",
+        "price": "$1,500,000",
+        "status": "sale",
+        "area": "5000 sq ft",
+        "location": "Coastal Heights",
+        "facilities": ["Infinity Pool", "Home Theater", "Gourmet Kitchen", "Gym"],
+        "image": "https://example.com/luxury_villa.jpg",
+        "button": "View Property"
+      },
+      {
+        "id": 2,
+        "estate_title": "Downtown Penthouse",
+        "segment_name": "Residential",
+        "description": "Live in the heart of the city in this luxurious penthouse apartment. Enjoy panoramic city views, high-end finishes, and convenient access to amenities.",
+        "price": "$8000/month",
+        "status": "rent",
+        "area": "2000 sq ft",
+        "location": "City Center",
+        "facilities": ["Spa", "Roof Terrace", "Concierge Service", "Fitness Center"],
+        "image": "https://example.com/downtown_penthouse.jpg",
+        "button": "View Property"
+      },
+      {
+        "id": 3,
+        "estate_title": "Country Estate Retreat",
+        "segment_name": "Residential",
+        "description": "Escape to this charming country estate surrounded by acres of pristine land. Perfect for nature lovers and those seeking tranquility.",
+        "price": "$2,200,000",
+        "status": "sale",
+        "area": "10 acres",
+        "location": "Rural Countryside",
+        "facilities": ["Guest Cottage", "Private Pond", "Tennis Court", "Orchard"],
+        "image": "https://example.com/country_estate.jpg",
+        "button": "View Property"
+      },
+      {
+        "id": 4,
+        "estate_title": "Modern Urban Loft",
+        "segment_name": "Residential",
+        "description": "Live in style in this sleek urban loft with industrial chic design elements. Located in a vibrant neighborhood with easy access to shops and dining.",
+        "price": "$750,000",
+        "status": "sale",
+        "area": "1500 sq ft",
+        "location": "Downtown District",
+        "facilities": ["Exposed Brick Walls", "Open Concept Living", "Private Balcony", "Fitness Center Access"],
+        "image": "https://example.com/urban_loft.jpg",
+        "button": "View Property"
+      }
+    ]
+  }
+  

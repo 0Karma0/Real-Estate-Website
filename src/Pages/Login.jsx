@@ -5,20 +5,24 @@ import { AuthContext } from "../components/AuthProvider";
 
 const Login = () => {
 
-  const {loginUser, googleLogin, setUser} = useContext(AuthContext)
+  const { loginUser, googleLogin, setUser, githubLogin } = useContext(AuthContext)
 
   const handleLogin = (e) => {
     e.preventDefault();
     const email = e.target.email.value;
     const password = e.target.password.value;
 
-    console.log(email,password);
-    loginUser(email,password)
+    console.log(email, password);
+    loginUser(email, password)
   }
 
   const handleGoogleLogin = () => {
     googleLogin()
-    .then(result => setUser(result.user))
+      .then(result => setUser(result.user))
+  }
+  const handleGithubLogin = () => {
+    githubLogin()
+      .then(result => setUser(result.user))
   }
 
   return (
@@ -52,7 +56,10 @@ const Login = () => {
                 <p>Do not have an account? <Link className="text-bold text-green-400" to='/register'>Register</Link></p>
               </div>
             </form>
-            <button onClick={handleGoogleLogin} className='btn btn-secondary'>Google login</button>
+            <div>
+              <button onClick={handleGoogleLogin} className='btn btn-secondary'>Google login</button>
+              <button onClick={handleGithubLogin} className='btn btn-secondary'>Github login</button>
+            </div>
           </div>
         </div>
       </div>
