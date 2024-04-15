@@ -1,7 +1,11 @@
+import { useContext } from "react";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../components/AuthProvider";
 
 
 const Login = () => {
+
+  const {loginUser} = useContext(AuthContext)
 
   const handleLogin = (e) => {
     e.preventDefault();
@@ -9,6 +13,7 @@ const Login = () => {
     const password = e.target.password.value;
 
     console.log(email,password);
+    loginUser(email,password)
   }
 
   return (
