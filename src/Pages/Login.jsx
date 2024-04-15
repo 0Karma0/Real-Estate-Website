@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../components/AuthProvider";
 
 
@@ -16,12 +16,25 @@ const Login = () => {
     loginUser(email, password)
   }
 
+  const navigate = useNavigate();
+  const location = useLocation();
+  const from = location?.state || '/'
+
+  const handleSocialLogin = socialProvider =>{
+    socialProvider()
+    .then(result =>{
+      if(result.user){
+        navigate(from)
+      }
+    })
+  }
+
   const handleGoogleLogin = () => {
-    googleLogin()
+    handleSocialLogin(googleLogin)
       .then(result => setUser(result.user))
   }
   const handleGithubLogin = () => {
-    githubLogin()
+    handleSocialLogin(githubLogin)
       .then(result => setUser(result.user))
   }
 
