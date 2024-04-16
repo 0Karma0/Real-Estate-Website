@@ -1,6 +1,19 @@
-# React + Vite
+Real-Estate
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Site: https://real-estate-7efe6.web.app/
+
+-Residential place: exclusive page for residentials
+-responsive: page is responsive
+-functional: page is functional
+-data privacy: private routes
+-compatibality: with all browsers
+
+NPM Package Used:
+-react
+-swiper
+-firebase
+-react dom
+-react router dom
 
 Currently, two official plugins are available:
 
